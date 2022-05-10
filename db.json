@@ -1,29 +1,31 @@
 {
-  "items": [
-    {
-      "personId": "p1",
-      "orderId": "o1",
-      "orderItemId": "oi1",
-      "prescription": {
-        "prescriptionId": "rx1",
-        "fillDetails": {
-          "fillId": "f1",
-          "daysSupply": 30,
-          "quantity": {
-            "amount": 50,
-            "unit": "tablets"
-          }
-        },
-        "drugDetails": {
-          "drugId": "d1",
-          "drugDisplayName": {
-            "primaryName": "pn1"
+  "global": {
+    "items": [
+      {
+        "personId": "p1",
+        "orderId": "o1",
+        "orderItemId": "oi1",
+        "prescription": {
+          "prescriptionId": "rx1",
+          "fillDetails": {
+            "fillId": "f1",
+            "daysSupply": 30,
+            "quantity": {
+              "amount": 50,
+              "unit": "tablets"
+            }
           },
-          "imageUrl": "imageUrl",
-          "autoRefillEnabled": false
-        },
-        "eligible": true
+          "drugDetails": {
+            "drugId": "d1",
+            "drugDisplayName": {
+              "primaryName": "pn1"
+            },
+            "imageUrl": "imageUrl",
+            "autoRefillEnabled": false
+          },
+          "eligible": true
+        }
       }
-    }
-  ]
+    ]
+  }
 }
