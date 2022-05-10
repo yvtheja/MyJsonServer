@@ -1,14 +1,20 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  items: [
+    {
+      personId: 'p1',
+      orderId: 'o1',
+      orderItemId: 'oi1',
+      prescription: {
+        prescriptionId: 'rx1',
+        fillDetails: { fillId: 'f1', daysSupply: 30, quantity: { amount: 50, unit: 'tablets' } },
+        drugDetails: {
+          drugId: 'd1',
+          drugDisplayName: { primaryName: 'pn1' },
+          imageUrl: 'imageUrl',
+          autoRefillEnabled: false,
+        },
+        eligible: true,
+      },
+    },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+};
