@@ -25,6 +25,31 @@
           },
           "eligible": true
         }
+      },
+        {
+        "personId": "p2",
+        "orderId": "o2",
+        "orderItemId": "oi2",
+        "prescription": {
+          "prescriptionId": "rx2",
+          "fillDetails": {
+            "fillId": "f2",
+            "daysSupply": 30,
+            "quantity": {
+              "amount": 50,
+              "unit": "tablets"
+            }
+          },
+          "drugDetails": {
+            "drugId": "d2",
+            "drugDisplayName": {
+              "primaryName": "pn2"
+            },
+            "imageUrl": "imageUrl",
+            "autoRefillEnabled": false
+          },
+          "eligible": true
+        }
       }
     ]
 
