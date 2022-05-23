@@ -50,6 +50,31 @@
           },
           "eligible": true
         }
+      },
+        {
+        "personId": "p3",
+        "orderId": "o3",
+        "orderItemId": "oi3",
+        "prescription": {
+          "prescriptionId": "rx3",
+          "fillDetails": {
+            "fillId": "f3",
+            "daysSupply": 30,
+            "quantity": {
+              "amount": 50,
+              "unit": "tablets"
+            }
+          },
+          "drugDetails": {
+            "drugId": "d3",
+            "drugDisplayName": {
+              "primaryName": "pn3"
+            },
+            "imageUrl": "imageUrl",
+            "autoRefillEnabled": false
+          },
+          "eligible": false
+        }
       }
     ]
 
