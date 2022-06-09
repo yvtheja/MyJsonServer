@@ -1,7 +1,9 @@
 {
-  "personId": "amzn1.maya.sd1.eCus.aTxt00SD.PersonId.UtRPzd1OSnW9paTSeAOyGQ",
-  "items": [
-    {
+
+  "items": {
+    "personId": "amzn1.maya.sd1.eCus.aTxt00SD.PersonId.UtRPzd1OSnW9paTSeAOyGQ",
+    "items": [
+        {
       "prescriptionId": "6222a8b8bb9b7619067d2e91",
       "autoRefillEligible": true,
       "drugId": "5dfe9153bb9b761cd3568361",
@@ -33,6 +35,6 @@
       "daysSupply": 30,
       "quantity": 30,
       "drugUnit": "TAB"
-    },
-  ]
+    }],
+}
 }
