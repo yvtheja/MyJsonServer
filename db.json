@@ -1,81 +1,8 @@
 {
 
-    "items": [
-      {
-        "personId": "p1",
-        "orderId": "o1",
-        "orderItemId": "oi1",
-        "prescription": {
-          "prescriptionId": "rx1",
-          "fillDetails": {
-            "fillId": "f1",
-            "daysSupply": 30,
-            "quantity": {
-              "amount": 50,
-              "unit": "tablets"
-            }
-          },
-          "drugDetails": {
-            "drugId": "d1",
-            "drugDisplayName": {
-              "primaryName": "pn1"
-            },
-            "imageUrl": "imageUrl",
-            "autoRefillEnabled": false
-          },
-          "eligible": true
+    "items": {
+        "boom": {
+            "boomInside": "boomValue"
         }
-      },
-        {
-        "personId": "p2",
-        "orderId": "o2",
-        "orderItemId": "oi2",
-        "prescription": {
-          "prescriptionId": "rx2",
-          "fillDetails": {
-            "fillId": "f2",
-            "daysSupply": 30,
-            "quantity": {
-              "amount": 50,
-              "unit": "tablets"
-            }
-          },
-          "drugDetails": {
-            "drugId": "d2",
-            "drugDisplayName": {
-              "primaryName": "pn2"
-            },
-            "imageUrl": "imageUrl",
-            "autoRefillEnabled": false
-          },
-          "eligible": true
-        }
-      },
-        {
-        "personId": "p3",
-        "orderId": "o3",
-        "orderItemId": "oi3",
-        "prescription": {
-          "prescriptionId": "rx3",
-          "fillDetails": {
-            "fillId": "f3",
-            "daysSupply": 30,
-            "quantity": {
-              "amount": 50,
-              "unit": "tablets"
-            }
-          },
-          "drugDetails": {
-            "drugId": "d3",
-            "drugDisplayName": {
-              "primaryName": "pn3"
-            },
-            "imageUrl": "imageUrl",
-            "autoRefillEnabled": false
-          },
-          "eligible": false
-        }
-      }
-    ]
-
+    }
 }
