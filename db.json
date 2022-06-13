@@ -1,8 +1,8 @@
 {
   "items": {
-    "personId": "amzn1.maya.sd1.eCus.aTxt00SD.PersonId.UtRPzd1OSnW9paTSeAOyGQ",
     "items": [
       {
+            "personId": "amzn1.maya.sd1.eCus.aTxt00SD.PersonId.UtRPzd1OSnW9paTSeAOyGQ",
         "prescriptionId": "6222a8b8bb9b7619067d2e91",
         "autoRefillEligible": true,
         "drugId": "5dfe9153bb9b761cd3568361",
@@ -14,6 +14,7 @@
         "drugUnit": "TAB"
       },
       {
+            "personId": "amzn1.maya.sd1.eCus.aTxt00SD.PersonId.UtRPzd1OSnW9paTSeAOyGQ",
         "prescriptionId": "6222a8b8bb9b7619067d2e91",
         "autoRefillEligible": true,
         "drugId": "5dfe9153bb9b761cd3568362",
@@ -25,6 +26,7 @@
         "drugUnit": "TAB"
       },
       {
+            "personId": "amzn1.maya.sd1.eCus.aTxt00SD.PersonId.UtRPzd1OSnW9paTSeAOyGQ",
         "prescriptionId": "6222a8b8bb9b7619067d2e91",
         "autoRefillEligible": false,
         "drugId": "5dfe9153bb9b761cd3568363",
